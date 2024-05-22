@@ -14,7 +14,7 @@ public class MultipleBarrels : Towers
     [SerializeField] protected GameObject[] bulletspawn;
     [SerializeField] public GameObject bullet;
     protected GameObject target;
-    public bool Responsive;
+    public bool Responsive = false;
     public override IEnumerator Fire()
     {
         GameObject Firebullet = Instantiate(bullet, bulletspawn[0].transform.position, Quaternion.identity);
@@ -30,6 +30,7 @@ public class MultipleBarrels : Towers
         Firebullet2.GetComponent<Rigidbody2D>().velocity = Bulletspeed * direction;
         
         yield return new WaitForSeconds(2f);
+        Responsive = true;
         Destroy(Firebullet);
         Destroy(Firebullet2);
     }
@@ -41,7 +42,6 @@ public class MultipleBarrels : Towers
         Bulletspeed = bulletspeed;
         Bps = bps;
         Target = target;
-        Responsive = true;
     }
 
     [ExcludeFromCodeCoverage]

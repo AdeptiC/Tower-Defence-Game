@@ -20,13 +20,12 @@ public class Bullet_Test
         rocket1Obj.transform.position = new Vector3(-5f, -1.24f, 0);
         yield return new WaitForSeconds(5f);
         yield return rocketscript.Fire();
-        Assert.IsNotNull(rocketscript.bullet);
+        Assert.IsTrue(rocketscript.Responsive);
         rocket1Obj.transform.position = new Vector3(100f, -1.24f, 0);
-
         rocket2Obj.transform.position = new Vector3(-5f, -1.24f, 0);
         yield return new WaitForSeconds(5f);
         yield return rocketscript2.Fire();
-        Assert.IsNotNull(rocketscript2.bullet);
+        Assert.IsTrue(rocketscript2.Responsive);
         rocket2Obj.transform.position = new Vector3(100f, -1.24f, 0);
     }
 
@@ -42,13 +41,13 @@ public class Bullet_Test
         Gun1Obj.transform.position = new Vector3(-5f, -1.24f, 0);
         yield return new WaitForSeconds(5f);
         yield return Gunscript.Fire();
-        Assert.IsNotNull(Gunscript.bullet);
+        Assert.IsTrue(Gunscript.Responsive);
         Gun1Obj.transform.position = new Vector3(-100f, -1.24f, 0);
 
         Gun2Obj.transform.position = new Vector3(-5f, -1.24f, 0);
         yield return new WaitForSeconds(5f);
         yield return Gunscript2.Fire();
-        Assert.IsNotNull(Gunscript2.bullet);
+        Assert.IsTrue(Gunscript2.Responsive);
         Gun2Obj.transform.position = new Vector3(-100f, -1.24f, 0);
     }
 }

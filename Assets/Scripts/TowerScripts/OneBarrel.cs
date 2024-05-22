@@ -14,6 +14,7 @@ public class OneBarrel : Towers
     [SerializeField] private GameObject bulletspawn;
     [SerializeField] public GameObject bullet;
     [SerializeField] protected AudioSource GunShot;
+    public bool Responsive = false;
 
     private void Awake()
     {
@@ -37,6 +38,7 @@ public class OneBarrel : Towers
 
 
         yield return new WaitForSeconds(1f);
+        Responsive = true;
         Destroy(firebullet);
         
 

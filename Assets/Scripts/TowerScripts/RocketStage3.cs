@@ -43,6 +43,7 @@ public class RocketStage3 : Towers
         }
 
         // Wait 2 seconds after the last bullet before starting to destroy them
+        Responsive = true;
         yield return new WaitForSeconds(2f);
 
         // Destroy all bullets that were fired
@@ -61,7 +62,6 @@ public class RocketStage3 : Towers
         Bulletspeed = bulletspeed;
         Bps = bps;
         Target = target;
-        Responsive = true;
     }
 
 

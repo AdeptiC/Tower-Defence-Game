@@ -14,19 +14,16 @@ public class RocketStageTwo : Towers
     [SerializeField] public GameObject bullet;
     public GameObject target;
     public bool Responsive;
-    public bool Bulletspawned = false;
 
     public override IEnumerator Fire()
     {
         Vector2 direction = (Target.transform.position - transform.position).normalized;
         GameObject Firebullet = Instantiate(bullet, bulletspawn[0].transform.position, Quaternion.identity);
         GameObject Firebullet2 = null;
-
         Firebullet.GetComponent<Rigidbody2D>().velocity = Bulletspeed * direction;
         BulletAngle(Firebullet);
         GunShot.Play();
         yield return new WaitForSeconds(0.75f);
-
         if (Target != null)
         {
             direction = (Target.transform.position - transform.position).normalized;
@@ -35,11 +32,10 @@ public class RocketStageTwo : Towers
             Firebullet2.GetComponent<Rigidbody2D>().velocity = Bulletspeed * direction;
             GunShot.Play();
         }
-
         yield return new WaitForSeconds(2f);
+        Responsive = true;
         Destroy(Firebullet);
         Destroy(Firebullet2);
-
     }
 
     private void Awake()
@@ -48,7 +44,6 @@ public class RocketStageTwo : Towers
         Bulletspeed = bulletspeed;
         Bps = bps;
         Target = target;
-        Responsive = true;
     }
 
 

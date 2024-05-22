@@ -1,15 +1,15 @@
 {
   "summary": {
-    "generatedon": "2024-05-21T11:29:24Z",
+    "generatedon": "2024-05-22T07:59:28Z",
     "parser": "MultiReportParser (2x OpenCoverParser)",
     "assemblies": 2,
     "classes": 19,
     "files": 19,
-    "coveredlines": 471,
+    "coveredlines": 473,
     "uncoveredlines": 40,
-    "coverablelines": 511,
-    "totallines": 1302,
-    "linecoverage": 92.1,
+    "coverablelines": 513,
+    "totallines": 1298,
+    "linecoverage": 92.2,
     "coveredbranches": 0,
     "totalbranches": 0,
     "coveredmethods": 76,
@@ -18,22 +18,22 @@
  },
   "coverage": {
     "assemblies": [
-      { "name": "Script", "classes": 13, "coverage": 90, "coveredlines": 363, "coverablelines": 403, "totallines": 955, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 89, "coveredmethods": 65, "totalmethods": 73, "classesinassembly": [
+      { "name": "Script", "classes": 13, "coverage": 90.1, "coveredlines": 365, "coverablelines": 405, "totallines": 952, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 89, "coveredmethods": 65, "totalmethods": 73, "classesinassembly": [
         { "name": "Ammo", "coverage": 100, "coveredlines": 19, "coverablelines": 19, "totallines": 61, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
         { "name": "BuildManager", "coverage": 78.5, "coveredlines": 11, "coverablelines": 14, "totallines": 51, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 83.3, "coveredmethods": 5, "totalmethods": 6 },
         { "name": "Buttons", "coverage": 0, "coveredlines": 0, "coverablelines": 4, "totallines": 18, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 2 },
         { "name": "Enemies", "coverage": 93.8, "coveredlines": 76, "coverablelines": 81, "totallines": 152, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 8, "totalmethods": 8 },
         { "name": "LevelManager", "coverage": 91.4, "coveredlines": 32, "coverablelines": 35, "totallines": 76, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 6, "totalmethods": 6 },
         { "name": "Menus", "coverage": 57.1, "coveredlines": 8, "coverablelines": 14, "totallines": 50, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 66.6, "coveredmethods": 4, "totalmethods": 6 },
-        { "name": "MultipleBarrels", "coverage": 100, "coveredlines": 24, "coverablelines": 24, "totallines": 65, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3 },
-        { "name": "OneBarrel", "coverage": 100, "coveredlines": 21, "coverablelines": 21, "totallines": 63, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 4, "totalmethods": 4 },
+        { "name": "MultipleBarrels", "coverage": 100, "coveredlines": 25, "coverablelines": 25, "totallines": 65, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 4, "totalmethods": 4 },
+        { "name": "OneBarrel", "coverage": 100, "coveredlines": 23, "coverablelines": 23, "totallines": 65, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 4, "totalmethods": 4 },
         { "name": "position_script", "coverage": 54.1, "coveredlines": 13, "coverablelines": 24, "totallines": 65, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 60, "coveredmethods": 3, "totalmethods": 5 },
         { "name": "RocketStage3", "coverage": 100, "coveredlines": 34, "coverablelines": 34, "totallines": 85, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3 },
-        { "name": "RocketStageTwo", "coverage": 100, "coveredlines": 31, "coverablelines": 31, "totallines": 75, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 4, "totalmethods": 4 },
+        { "name": "RocketStageTwo", "coverage": 100, "coveredlines": 30, "coverablelines": 30, "totallines": 70, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3 },
         { "name": "Spawner", "coverage": 100, "coveredlines": 50, "coverablelines": 50, "totallines": 94, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 10, "totalmethods": 10 },
         { "name": "Towers", "coverage": 84.6, "coveredlines": 44, "coverablelines": 52, "totallines": 100, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 93.3, "coveredmethods": 14, "totalmethods": 15 } ] },
-      { "name": "Tests", "classes": 6, "coverage": 100, "coveredlines": 108, "coverablelines": 108, "totallines": 347, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 11, "totalmethods": 11, "classesinassembly": [
-        { "name": "Bullet_Test", "coverage": 100, "coveredlines": 34, "coverablelines": 34, "totallines": 54, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+      { "name": "Tests", "classes": 6, "coverage": 100, "coveredlines": 108, "coverablelines": 108, "totallines": 346, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 11, "totalmethods": 11, "classesinassembly": [
+        { "name": "Bullet_Test", "coverage": 100, "coveredlines": 34, "coverablelines": 34, "totallines": 53, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
         { "name": "Currency_test", "coverage": 100, "coveredlines": 7, "coverablelines": 7, "totallines": 37, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
         { "name": "firtst", "coverage": 100, "coveredlines": 8, "coverablelines": 8, "totallines": 44, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
         { "name": "Spend_test", "coverage": 100, "coveredlines": 7, "coverablelines": 7, "totallines": 43, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
