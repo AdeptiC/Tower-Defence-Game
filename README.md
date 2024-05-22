@@ -5,7 +5,7 @@
 
 [![Unity-tester](https://github.com/AdeptiC/Tower-Defence-Game/actions/workflows/Test.yml/badge.svg)](https://github.com/AdeptiC/Tower-Defence-Game/actions/workflows/Test.yml)
 
-[![Build](https://github.com/AdeptiC/Tower-Defence-Game/actions/workflows/Build.yml/badge.svg)](https://github.com/AdeptiC/Tower-Defence-Game/actions/workflows/Build.yml)
+[![Build](https://github.com/AdeptiC/Tower-Defence-Game/actions/workflows/build.yml/badge.svg)](https://github.com/AdeptiC/Tower-Defence-Game/actions/workflows/build.yml)
 
 # Tower-Defence-Game
 

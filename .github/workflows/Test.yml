@@ -15,8 +15,9 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: CHECKS OUT CODE
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
 
     - name: SETUP .NET
       uses: actions/setup-dotnet@v4
