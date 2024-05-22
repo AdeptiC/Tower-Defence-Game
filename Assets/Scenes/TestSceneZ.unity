@@ -293,10 +293,10 @@ MonoBehaviour:
   - {fileID: 8501194366679033231, guid: c1aca37200ec1d947940913c31b39ebf, type: 3}
   - {fileID: 3257457764228962083, guid: b1398021505d123469fb07139b40c8b9, type: 3}
   - {fileID: 8351358248328336182, guid: 7a71d052b7b5ef44a982a061c6729554, type: 3}
-  baseEnemies: 8
+  baseEnemies: 5
   enemiesPerSecond: 0.5
   timeBetweenWaves: 1.5
-  difficultyScalingFactor: 0.75
+  difficultyScalingFactor: 0.5
   currentWave: 1
   timeSinceLastSpawn: 0
   enemiesAlive: 0
@@ -386,6 +386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriterend: {fileID: 67999604}
   hovcolour: {r: 0.7607843, g: 0, b: 0.09019608, a: 0.89411765}
+  tower: {fileID: 0}
 --- !u!212 &67999604 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2539983229555646103, guid: 0662faae29eee1441b744d565cb32022, type: 3}
@@ -548,6 +549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriterend: {fileID: 161582372}
   hovcolour: {r: 0.7607843, g: 0, b: 0.09019608, a: 0.89411765}
+  tower: {fileID: 0}
 --- !u!1 &168090573
 GameObject:
   m_ObjectHideFlags: 0
@@ -6833,6 +6835,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriterend: {fileID: 347784759}
   hovcolour: {r: 0.7607843, g: 0, b: 0.09019608, a: 0.89411765}
+  tower: {fileID: 0}
 --- !u!1001 &352101387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7514,6 +7517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriterend: {fileID: 731918328}
   hovcolour: {r: 0.7607843, g: 0, b: 0.09019608, a: 0.89411765}
+  tower: {fileID: 0}
 --- !u!212 &731918328 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2539983229555646103, guid: 0662faae29eee1441b744d565cb32022, type: 3}
@@ -7543,6 +7547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriterend: {fileID: 788058840}
   hovcolour: {r: 0.7607843, g: 0, b: 0.09019608, a: 0.89411765}
+  tower: {fileID: 0}
 --- !u!212 &788058840 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2539983229555646103, guid: 0662faae29eee1441b744d565cb32022, type: 3}
@@ -7886,6 +7891,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriterend: {fileID: 1239826286}
   hovcolour: {r: 0.7607843, g: 0, b: 0.09019608, a: 0.89411765}
+  tower: {fileID: 0}
 --- !u!1 &1260106162
 GameObject:
   m_ObjectHideFlags: 0
@@ -8052,6 +8058,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriterend: {fileID: 1318592854}
   hovcolour: {r: 0.7607843, g: 0, b: 0.09019608, a: 0.89411765}
+  tower: {fileID: 0}
 --- !u!1 &1423861804
 GameObject:
   m_ObjectHideFlags: 0
@@ -9529,6 +9536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriterend: {fileID: 916142804043759292}
   hovcolour: {r: 0, g: 0, b: 0, a: 0}
+  tower: {fileID: 0}
 --- !u!1 &1519325689
 GameObject:
   m_ObjectHideFlags: 0
@@ -9749,6 +9757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriterend: {fileID: 1578533433}
   hovcolour: {r: 0.7607843, g: 0, b: 0.09019608, a: 0.89411765}
+  tower: {fileID: 0}
 --- !u!212 &1578533433 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2539983229555646103, guid: 0662faae29eee1441b744d565cb32022, type: 3}
@@ -10136,6 +10145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriterend: {fileID: 1748382475}
   hovcolour: {r: 0.7607843, g: 0, b: 0.09019608, a: 0.89411765}
+  tower: {fileID: 0}
 --- !u!212 &1748382475 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2539983229555646103, guid: 0662faae29eee1441b744d565cb32022, type: 3}
@@ -10196,6 +10206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriterend: {fileID: 1885684868}
   hovcolour: {r: 0.7607843, g: 0, b: 0.09019608, a: 0.89411765}
+  tower: {fileID: 0}
 --- !u!212 &1885684868 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2539983229555646103, guid: 0662faae29eee1441b744d565cb32022, type: 3}
@@ -10584,6 +10595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriterend: {fileID: 2000238881}
   hovcolour: {r: 0.7607843, g: 0, b: 0.09019608, a: 0.89411765}
+  tower: {fileID: 0}
 --- !u!1 &2005891369 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6191487781671203649, guid: 0662faae29eee1441b744d565cb32022, type: 3}
@@ -10608,6 +10620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriterend: {fileID: 2005891373}
   hovcolour: {r: 0.7607843, g: 0, b: 0.09019608, a: 0.89411765}
+  tower: {fileID: 0}
 --- !u!212 &2005891373 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2539983229555646103, guid: 0662faae29eee1441b744d565cb32022, type: 3}
