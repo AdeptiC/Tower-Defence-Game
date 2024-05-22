@@ -7,16 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class tower_inst
 {
-    // A Test behaves as an ordinary method
-    /*[Test]
-    public void tower_instantiate_testSimplePasses()
-    {
-        // Use the Assert class to test conditions
-    }*/
 
-    // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
-    // `yield return null;` to skip a frame.
-    
 
     public position_script position;
     private BuildManager buildmanager;
@@ -27,35 +18,6 @@ public class tower_inst
     private Color hovcol;
     private Color original;
 
-    /*[SetUp]
-    public void SetUp()
-    {
-
-
-        GameObject gameObject = new GameObject();
-        position = gameObject.AddComponent<position_script>();
-
-        testSpriteRenderer = gameObject.AddComponent<SpriteRenderer>();
-
-        hovcol = Color.red;
-        original = Color.white;
-
-        position.SetSpriteRenderer(testSpriteRenderer);
-        position.SetHoverColor(hovcol);
-        //position.spriterend = testSpriteRenderer;
-        
-        testSpriteRenderer.color = original;
-
-        //position.tower = null;
-
-        Debug.Log("Runs");
-    }*/
-
-
-
-
-
-
     [UnityTest]
     public IEnumerator tower_not_null()
     {
@@ -65,16 +27,6 @@ public class tower_inst
 
         position_script position = positionobj.GetComponent<position_script>();
 
-
-        /*GameObject build = new GameObject();
-        buildmanager = build.AddComponent<BuildManager>();*/
-        //BuildManager bmanager = buildmanager.acces_build;
-
-        /*BuildManager bmanager = BuildManager.acces_build;
-
-        GameObject mockprefab = new GameObject();
-        //bmanager.Set_prefabs(mockprefab, 1);
-        bmanager.selectedTower = 1;*/
         BuildManager.main.selectedTower = 1;
 
 
