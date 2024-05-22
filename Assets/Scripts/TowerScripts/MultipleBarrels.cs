@@ -14,9 +14,11 @@ public class MultipleBarrels : Towers
     [SerializeField] protected GameObject[] bulletspawn;
     [SerializeField] public GameObject bullet;
     protected GameObject target;
-    public bool Responsive = false;
+    public bool Responsive;
     public override IEnumerator Fire()
     {
+        Responsive = true;
+        Vector2 direction = (Target.transform.position - transform.position).normalized;
         GameObject Firebullet = Instantiate(bullet, bulletspawn[0].transform.position, Quaternion.identity);
         BulletAngle(Firebullet);
         GunShot.Play();
@@ -25,12 +27,12 @@ public class MultipleBarrels : Towers
         BulletAngle(Firebullet2);
         GunShot.Play();
         
-        Vector2 direction = (Target.transform.position - transform.position).normalized;
+        
         Firebullet.GetComponent<Rigidbody2D>().velocity = Bulletspeed * direction;
         Firebullet2.GetComponent<Rigidbody2D>().velocity = Bulletspeed * direction;
         
         yield return new WaitForSeconds(2f);
-        Responsive = true;
+        
         Destroy(Firebullet);
         Destroy(Firebullet2);
     }
@@ -42,6 +44,7 @@ public class MultipleBarrels : Towers
         Bulletspeed = bulletspeed;
         Bps = bps;
         Target = target;
+        Responsive = false;
     }
 
     [ExcludeFromCodeCoverage]

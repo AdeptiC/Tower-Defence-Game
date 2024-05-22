@@ -14,13 +14,14 @@ public class OneBarrel : Towers
     [SerializeField] private GameObject bulletspawn;
     [SerializeField] public GameObject bullet;
     [SerializeField] protected AudioSource GunShot;
-    public bool Responsive = false;
+    public bool Responsive;
 
     private void Awake()
     {
         Range = range;
         Bulletspeed = bulletspeed;
         Bps = bps;
+        Responsive = false;
         Target = target;
     }
 
