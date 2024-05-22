@@ -17,20 +17,18 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-    
 
-    - name: SETUP .NET
+    - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
 
-        
     - name: Build
-      run:   
+      run: |
         cd Tower-Defence-Game-main
         dotnet build --no-restore
 
-
-      
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: |
+        cd Tower-Defence-Game-main
+        dotnet test --no-build --verbosity normal

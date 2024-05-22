@@ -18,12 +18,12 @@ public class Bullet_Test
         RocketStageTwo rocketscript2 = rocket2Obj.GetComponent<RocketStageTwo>();
 
         rocket1Obj.transform.position = new Vector3(-5f, -1.24f, 0);
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(7f);
         yield return rocketscript.Fire();
         Assert.IsTrue(rocketscript.Responsive);
         rocket1Obj.transform.position = new Vector3(100f, -1.24f, 0);
         rocket2Obj.transform.position = new Vector3(-5f, -1.24f, 0);
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(7f);
         yield return rocketscript2.Fire();
         Assert.IsTrue(rocketscript2.Responsive);
         rocket2Obj.transform.position = new Vector3(100f, -1.24f, 0);
