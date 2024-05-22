@@ -5,7 +5,7 @@ name: TEST
 
 on:
   push:
-    branches: [ "mainn" ]
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
