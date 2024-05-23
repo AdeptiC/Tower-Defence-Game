@@ -3,31 +3,27 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
+using UnityEngine.SceneManagement;
 
 public class firtst
 {
-
     private LevelManager manager;
 
 
     // A Test behaves as an ordinary method
-    [Test]
-    public void ReduceHealth_test()
+    [UnityTest]
+    public IEnumerator ReduceHealth_test()
     {
+        yield return SceneManager.LoadSceneAsync("TestSceneZ");
         // Use the Assert class to test conditions
-        GameObject gameObject = new GameObject();
-        manager = gameObject.AddComponent<LevelManager>();
+        GameObject gameObject = GameObject.Find("LevelManager");
+        manager = gameObject.GetComponent<LevelManager>();
 
-        int damage = 45;
+        int index = 3;
 
-        manager.mapHealth = 100;
+        manager.ReduceHealth();
 
-        manager.ReduceHealth(damage);
-
-
-        Assert.AreEqual(100-damage, manager.mapHealth);
-        
-
+        Assert.AreEqual(index, manager.heartIndex);
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use

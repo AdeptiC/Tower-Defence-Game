@@ -24,7 +24,6 @@ public class Enemies : MonoBehaviour
     [Header("Attributes")]
     [SerializeField] private float moveSpeed;
     [SerializeField] public float health;
-    [SerializeField] private int damageToMap;
     public Vector3 pivotOffset;
     public float curHealth;
 
@@ -73,7 +72,7 @@ public class Enemies : MonoBehaviour
 
             if (pathIndex == path.Length)
             {
-                LevelManager.main.ReduceHealth(damageToMap);
+                LevelManager.main.ReduceHealth();
                 Spawner.onEnemyDestroyed.Invoke();
                 Destroy(gameObject);
                 return;
