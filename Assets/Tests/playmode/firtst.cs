@@ -3,25 +3,25 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
+using UnityEngine.SceneManagement;
 
 public class firtst
 {
-
     private LevelManager manager;
 
 
     // A Test behaves as an ordinary method
-    [Test]
-    public void ReduceHealth_test()
+    [UnityTest]
+    public IEnumerator ReduceHealth_test()
     {
+        yield return SceneManager.LoadSceneAsync("TestSceneZ");
         // Use the Assert class to test conditions
-        GameObject gameObject = new GameObject();
-        manager = gameObject.AddComponent<LevelManager>();
+        GameObject gameObject = GameObject.Find("LevelManager");
+        manager = gameObject.GetComponent<LevelManager>();
 
         int index = 3;
 
         manager.ReduceHealth();
-
 
         Assert.AreEqual(index, manager.heartIndex);
     }

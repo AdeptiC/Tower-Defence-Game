@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2024-05-23_15-36-26" tag="">
+  <assembly name="Script">
+    <class name="Ammo" coveredlines="0" coverablelines="19" totallines="61" coveredbranches="0" totalbranches="0" />
+    <class name="BuildManager" coveredlines="8" coverablelines="14" totallines="51" coveredbranches="0" totalbranches="0" />
+    <class name="Buttons" coveredlines="0" coverablelines="10" totallines="33" coveredbranches="0" totalbranches="0" />
+    <class name="Enemies" coveredlines="2" coverablelines="81" totallines="151" coveredbranches="0" totalbranches="0" />
+    <class name="LevelManager" coveredlines="18" coverablelines="31" totallines="72" coveredbranches="0" totalbranches="0" />
+    <class name="Menus" coveredlines="5" coverablelines="14" totallines="50" coveredbranches="0" totalbranches="0" />
+    <class name="MultipleBarrels" coveredlines="0" coverablelines="25" totallines="68" coveredbranches="0" totalbranches="0" />
+    <class name="OneBarrel" coveredlines="3" coverablelines="23" totallines="66" coveredbranches="0" totalbranches="0" />
+    <class name="position_script" coveredlines="5" coverablelines="24" totallines="65" coveredbranches="0" totalbranches="0" />
+    <class name="RocketStage3" coveredlines="0" coverablelines="35" totallines="86" coveredbranches="0" totalbranches="0" />
+    <class name="RocketStageTwo" coveredlines="0" coverablelines="31" totallines="71" coveredbranches="0" totalbranches="0" />
+    <class name="Spawner" coveredlines="19" coverablelines="64" totallines="114" coveredbranches="0" totalbranches="0" />
+    <class name="Towers" coveredlines="1" coverablelines="52" totallines="100" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="Tests">
+    <class name="Bullet_Test" coveredlines="0" coverablelines="32" totallines="53" coveredbranches="0" totalbranches="0" />
+    <class name="Currency_test" coveredlines="0" coverablelines="7" totallines="37" coveredbranches="0" totalbranches="0" />
+    <class name="firtst" coveredlines="8" coverablelines="8" totallines="40" coveredbranches="0" totalbranches="0" />
+    <class name="Spend_test" coveredlines="0" coverablelines="7" totallines="43" coveredbranches="0" totalbranches="0" />
+    <class name="tower_inst" coveredlines="0" coverablelines="13" totallines="54" coveredbranches="0" totalbranches="0" />
+    <class name="TowerTesting" coveredlines="0" coverablelines="39" totallines="67" coveredbranches="0" totalbranches="0" />
+  </assembly>
+</coverage>
