@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 // Spawner for mobs
 public class Spawner : MonoBehaviour
@@ -78,6 +79,9 @@ public class Spawner : MonoBehaviour
         enemiesPerSecond = 0.5f + 0.1f * currentWave;
         if (currentWave % 3 == 0 && curEnemyTypeMax <= 3)
             curEnemyTypeMax += 1;
+
+        if (currentWave == 21)
+            SceneManager.LoadScene("Victory");
 
         StartCoroutine(StartWave());
     }
