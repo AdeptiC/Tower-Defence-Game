@@ -18,7 +18,9 @@ public class LevelManager : MonoBehaviour
     public int currency;
 
     [Header("Attributes")]
-    [SerializeField] public int mapHealth;
+    [SerializeField] public GameObject[] hearts;
+
+    public int heartIndex = 4;
 
     private void Awake()
     {
@@ -40,7 +42,7 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (mapHealth <= 0)
+        if (heartIndex < 0)
             SceneManager.LoadScene("GameOver");
     }
 
@@ -63,8 +65,8 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public void ReduceHealth(int damage)
+    public void ReduceHealth()
     {
-        mapHealth -= damage;
+        Destroy(hearts[heartIndex--]);
     }
 }

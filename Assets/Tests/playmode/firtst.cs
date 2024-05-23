@@ -18,16 +18,12 @@ public class firtst
         GameObject gameObject = new GameObject();
         manager = gameObject.AddComponent<LevelManager>();
 
-        int damage = 45;
+        int index = 3;
 
-        manager.mapHealth = 100;
-
-        manager.ReduceHealth(damage);
+        manager.ReduceHealth();
 
 
-        Assert.AreEqual(100-damage, manager.mapHealth);
-        
-
+        Assert.AreEqual(index, manager.heartIndex);
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
