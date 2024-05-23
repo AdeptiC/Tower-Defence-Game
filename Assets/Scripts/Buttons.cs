@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
@@ -14,5 +15,19 @@ public class Buttons : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Play()
+    {
+        SceneManager.LoadScene("TestSceneZ");
+    }
+
+    public void Quit()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
     }
 }

@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestSceneJ.unity
     guid: e19214458caf7a7429a1d40c914e00c1
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: af1c05ffb0c9c9e4f80ecb7759e0860c
+  - enabled: 1
+    path: Assets/Scenes/GameMap3.unity
+    guid: 3ba70375a8834f041929d9260ad66de8
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: b5c57e6f675af034bb152ad23f99c4c0
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: 23abae9d187d02247a25155da2ae7cd4
   m_configObjects: {}

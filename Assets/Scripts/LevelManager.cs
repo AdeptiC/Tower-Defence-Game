@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
@@ -40,14 +41,7 @@ public class LevelManager : MonoBehaviour
     private void Update()
     {
         if (mapHealth <= 0)
-        {
-            // Here we go to the defeat screen.
-        }
-
-        if (mapHealth <  0)
-        {
-            Application.Quit();
-        }
+            SceneManager.LoadScene("GameOver");
     }
 
     public void IncreaseCurrency(int money)
