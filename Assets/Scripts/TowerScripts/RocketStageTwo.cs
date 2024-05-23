@@ -44,6 +44,7 @@ public class RocketStageTwo : Towers
         Bulletspeed = bulletspeed;
         Bps = bps;
         Target = target;
+        Responsive = false;
     }
 
 
