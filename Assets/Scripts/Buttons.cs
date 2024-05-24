@@ -19,7 +19,7 @@ public class Buttons : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene("TestSceneZ");
+        SceneManager.LoadScene("TS-Aki");
     }
 
     public void Quit()

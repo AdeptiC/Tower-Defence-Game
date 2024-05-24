@@ -80,7 +80,7 @@ public class Spawner : MonoBehaviour
         if (currentWave % 3 == 0 && curEnemyTypeMax <= 3)
             curEnemyTypeMax += 1;
 
-        if (currentWave == 21)
+        if (currentWave == 6)
             SceneManager.LoadScene("Victory");
 
         StartCoroutine(StartWave());

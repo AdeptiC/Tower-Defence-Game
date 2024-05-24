@@ -7,19 +7,19 @@
       <ModuleTime>0001-01-01T00:00:00</ModuleTime>
       <ModuleName>Script</ModuleName>
       <Files>
-        <File uid="1" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Scripts/Build_manager.cs" />
-        <File uid="2" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Scripts/Buttons.cs" />
-        <File uid="3" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Scripts/Enemies.cs" />
-        <File uid="4" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Scripts/LevelManager.cs" />
-        <File uid="5" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Scripts/Menus.cs" />
-        <File uid="6" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Scripts/position_script.cs" />
-        <File uid="7" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Scripts/Spawner.cs" />
-        <File uid="8" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Scripts/TowerScripts/Ammo.cs" />
-        <File uid="9" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Scripts/TowerScripts/MultipleBarrels.cs" />
-        <File uid="10" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Scripts/TowerScripts/OneBarrel.cs" />
-        <File uid="11" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Scripts/TowerScripts/RocketStage3.cs" />
-        <File uid="12" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Scripts/TowerScripts/RocketStageTwo.cs" />
-        <File uid="13" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Scripts/TowerScripts/Towers.cs" />
+        <File uid="1" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Scripts/Build_manager.cs" />
+        <File uid="2" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Scripts/Buttons.cs" />
+        <File uid="3" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Scripts/Enemies.cs" />
+        <File uid="4" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Scripts/LevelManager.cs" />
+        <File uid="5" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Scripts/Menus.cs" />
+        <File uid="6" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Scripts/position_script.cs" />
+        <File uid="7" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Scripts/Spawner.cs" />
+        <File uid="8" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Scripts/TowerScripts/Ammo.cs" />
+        <File uid="9" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Scripts/TowerScripts/MultipleBarrels.cs" />
+        <File uid="10" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Scripts/TowerScripts/OneBarrel.cs" />
+        <File uid="11" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Scripts/TowerScripts/RocketStage3.cs" />
+        <File uid="12" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Scripts/TowerScripts/RocketStageTwo.cs" />
+        <File uid="13" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Scripts/TowerScripts/Towers.cs" />
       </Files>
       <Classes>
         <Class>
@@ -300,8 +300,8 @@
               <Name>Enemies::Enemies()</Name>
               <FileRef uid="3" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="104" ordinal="0" offset="0" sl="22" sc="0" el="22" ec="0" bec="0" bev="0" fileid="3" />
-                <SequencePoint vc="0" uspid="105" ordinal="0" offset="7" sl="35" sc="0" el="35" ec="0" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="104" ordinal="0" offset="0" sl="22" sc="5" el="22" ec="5" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="105" ordinal="0" offset="7" sl="35" sc="5" el="35" ec="5" bec="0" bev="0" fileid="3" />
               </SequencePoints>
               <BranchPoints />
             </Method>
@@ -635,9 +635,9 @@
                 <SequencePoint vc="0" uspid="205" ordinal="0" offset="58" sl="80" sc="0" el="80" ec="0" bec="0" bev="0" fileid="7" />
                 <SequencePoint vc="0" uspid="206" ordinal="0" offset="87" sl="81" sc="0" el="81" ec="0" bec="0" bev="0" fileid="7" />
                 <SequencePoint vc="0" uspid="207" ordinal="0" offset="101" sl="83" sc="0" el="83" ec="0" bec="0" bev="0" fileid="7" />
-                <SequencePoint vc="0" uspid="208" ordinal="0" offset="115" sl="84" sc="0" el="84" ec="0" bec="0" bev="0" fileid="7" />
-                <SequencePoint vc="0" uspid="209" ordinal="0" offset="126" sl="86" sc="0" el="86" ec="0" bec="0" bev="0" fileid="7" />
-                <SequencePoint vc="0" uspid="210" ordinal="0" offset="139" sl="87" sc="0" el="87" ec="0" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="208" ordinal="0" offset="114" sl="84" sc="0" el="84" ec="0" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="209" ordinal="0" offset="125" sl="86" sc="0" el="86" ec="0" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="210" ordinal="0" offset="138" sl="87" sc="0" el="87" ec="0" bec="0" bev="0" fileid="7" />
               </SequencePoints>
               <BranchPoints />
             </Method>
@@ -812,9 +812,9 @@
               <Name>OneBarrel::OneBarrel()</Name>
               <FileRef uid="10" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="277" ordinal="0" offset="0" sl="10" sc="0" el="10" ec="0" bec="0" bev="0" fileid="10" />
-                <SequencePoint vc="0" uspid="278" ordinal="0" offset="11" sl="11" sc="0" el="11" ec="0" bec="0" bev="0" fileid="10" />
-                <SequencePoint vc="0" uspid="279" ordinal="0" offset="22" sl="12" sc="0" el="12" ec="0" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="277" ordinal="0" offset="0" sl="10" sc="22" el="10" ec="22" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="278" ordinal="0" offset="11" sl="11" sc="22" el="11" ec="22" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="279" ordinal="0" offset="22" sl="12" sc="22" el="12" ec="22" bec="0" bev="0" fileid="10" />
               </SequencePoints>
               <BranchPoints />
             </Method>
@@ -1079,7 +1079,7 @@
               <Name>Towers::Towers()</Name>
               <FileRef uid="13" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="355" ordinal="0" offset="0" sl="15" sc="0" el="15" ec="0" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="355" ordinal="0" offset="0" sl="15" sc="5" el="15" ec="5" bec="0" bev="0" fileid="13" />
               </SequencePoints>
               <BranchPoints />
             </Method>
@@ -1248,12 +1248,12 @@
       <ModuleTime>0001-01-01T00:00:00</ModuleTime>
       <ModuleName>Tests</ModuleName>
       <Files>
-        <File uid="14" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Tests/playmode/Currency_test.cs" />
-        <File uid="15" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Tests/playmode/Spend_test.cs" />
-        <File uid="16" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Tests/playmode/Bullet_Test.cs" />
-        <File uid="17" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Tests/playmode/firtst.cs" />
-        <File uid="18" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Tests/playmode/TowerTesting.cs" />
-        <File uid="19" fullPath="C:/Users/adria/Desktop/Tower-Defence-Game/Assets/Tests/playmode/Tower_inst.cs" />
+        <File uid="14" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Tests/playmode/Currency_test.cs" />
+        <File uid="15" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Tests/playmode/Spend_test.cs" />
+        <File uid="16" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Tests/playmode/Bullet_Test.cs" />
+        <File uid="17" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Tests/playmode/firtst.cs" />
+        <File uid="18" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Tests/playmode/TowerTesting.cs" />
+        <File uid="19" fullPath="C:/Users/Jakob/Desktop/TD/Tower-Defence-Game/Assets/Tests/playmode/Tower_inst.cs" />
       </Files>
       <Classes>
         <Class>
